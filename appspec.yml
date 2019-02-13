@@ -1,0 +1,6 @@
+version: 0.0
+os: linux
+files:
+  - source: /target/SpringMVCApp-0.0.1-SNAPSHOT/
+    destination: /opt/tomcat/apache-tomcat-8.5.37/webapps/ROOT 
+    overwrite: true
